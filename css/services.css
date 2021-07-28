@@ -1,0 +1,242 @@
+*{margin:0; padding: 0; box-sizing: border-box;font-family: 'Ubuntu', sans-serif;}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+p{
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #606060;
+	font-weight: bold;
+}
+/***************************Navbar starts*****************************************************/
+.menu{
+	background-image: linear-gradient(-90deg ,rgba(0,87,153,0.63),rgba(22,201,246,0.63)),url('../images/bg.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.nav-item a{
+	color: #fff !important;
+	font-weight: bold;
+
+}
+/***************************Navbar ends***********************************************************/
+/***********************************Main starts****************************************************/
+.main{
+	position: relative;
+	top:50px;
+	padding: 20px;
+}
+.center-div h1{
+	color: #80deea;
+}
+.center-div p{
+  font-size: 1.2rem;
+
+}
+
+.header-buttons a{
+	border: 1px solid #fff;
+	border-radius: 100px;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	color: #fff;
+	font-size: 1rem;
+	background-color:#80deea; 
+}
+
+.header-buttons a:hover{
+	color:#50d1c0;
+	background: #fff;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	font-weight: bold;
+}
+
+/***********************************Main ends******************************************************/
+
+/***********************************CBSE Course starts********************************************/
+.Cbse{
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 40px;
+
+}
+.headings h2{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color:  #80deea;
+}
+.headings p{
+	margin-bottom: 30px;
+}
+.card{
+	height: 320px
+}
+
+.card{
+	transition: 0.4s ease;
+}
+.card-header{
+	font-size: 1.6rem;
+	font-weight: bold;
+	background-color: #fff !important;
+	padding: 25px 9px!important;
+	color: #80deea;
+}
+.card-body{
+	padding: 30px 0px !important;
+}
+.card-body:hover{
+	color: #fff !important;
+}
+
+.card:hover{
+	transform: translateY(-20px);
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	background-color: #80deea;
+
+}
+.card:hover .card-header{
+	color: #50d1c0;
+}
+
+.card-body:hover p{
+	color: #fff !important;
+}
+
+/***********************************CBSE Course ends**********************************************/
+
+/***********************************Classes Schedule starts***************************************/
+.Schedule{
+	margin: 50px;
+	padding: 10px;
+	background: rgb(187 210 210 / 18%);
+
+}
+
+.online h2{
+	color: #80deea;
+}
+.online a{
+	color: #80deea;
+}
+.online li{
+	/*padding: 10px;*/
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #606060;
+	font-weight: bold;
+}
+.border{
+	width: 5px;
+	background-color:#80deea;
+	border-radius:5px;
+}
+
+
+/***********************************Classes Schedule ends*****************************************/
+
+/***************************Footer Section starts*************************/
+
+.footer-section{
+	background-image: linear-gradient(-90deg ,rgba(0,87,153,0.63),rgba(22,201,246,0.63)),url('../images/bg.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.footer-left h3{
+		color:white;
+		font-weight: 400;
+}
+
+.footer-left .border{
+	width: 100%;
+	height: 4px;
+	background-color:white;
+}
+
+.footer-left li{
+	color: #fff;
+	padding: 5px;
+}
+.footer-button{
+	background-color:white;
+	color: #80deea ;
+	padding: 5px;
+	border-radius: 5px;
+	border:none;
+	font-size: 1rem;
+	font-weight: 400;
+}
+.footer-button:hover{
+	background-color: #fff;
+	color:#80deea;
+}
+
+.logo{
+	color: #fff;
+	height: 50px;
+}
+
+.icons a{
+	color: #fff;
+	margin: 5px;
+	font-size: 30px;
+	padding: 10px;
+
+}
+
+/***************************Footer Section ends***************************/
+/***************************Media Query***********************************/
+@media(max-width:1020px){
+	img{
+		width: 330px;
+	}
+	.card{
+		margin: 5px;
+	}
+}
+@media(max-width:548px){
+	.card{
+		margin:5px;
+	}
+}
+@media(max-width: 768px){
+	.c1{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.c1 .border{
+		display: none;
+	}
+}
+@media(max-width: 512px){
+	img{
+		width: 250px;
+
+	}
+}
+@media(max-width: 356px){
+	.image img{
+		width: 120px;
+	}
+}
+@media(max-width: 296px){
+	.footer-section .icons{
+		margin-top:50px;
+	}
+}
