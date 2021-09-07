@@ -73,17 +73,18 @@ p{
 }
 
 .header-buttons a{
-	border: 1px solid #07a893;
+	border: 1px solid #000000;
 	border-radius: 100px;
 	margin: 0 5px;
 	padding: 12px 35px;
 	outline: none;
-	color: ##74e9d7;
+	color: #000000;
 	font-size: 1rem;
 }
 
 .header-buttons a:hover{
 	color:#50d1c0;
+	border: 1px solid #50d1c0;
 	background: #fff;
 	text-decoration: none;
 	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
