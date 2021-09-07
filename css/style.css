@@ -388,18 +388,7 @@ form:hover .form-button button{
 	background-color: #fff;
 	color:#80deea;
 }
-footer .text span{
-  font-size: 17px;
-  font-weight: 400;
-  color:var(--white-color);
-}
-footer .text span a{
-  font-weight: 500;
-  color:var(--white-color);
-}
-footer .text span a:hover{
-  text-decoration: underline;
-}
+
 
 .logo{
 	color: #fff;
